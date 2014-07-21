@@ -1,0 +1,46 @@
+.musical_nav_wrapper {
+    height: 100px;
+    text-align: center;
+    padding-top: 102px;
+}
+.musical_nav_menu {
+    padding-top: 6px;
+}
+.musical_nav_menu > a {
+    font-size: 14px;
+    color: white;
+    margin: 0px 2%;
+}
+.musical_nav_menu > a:hover, .musical_nav_menu_active {
+    color: #c1272d !important;
+}
+
+
+
+.partners_nav_strucure {
+    display: inline-block;
+    position: relative;
+}
+.stay_a_partner {
+    position: absolute;
+    right: -156px;
+    top: 40px;
+    width: 137px;
+    height: 26px;
+    padding-top: 4px;
+    display: block;
+    background: #b03120;
+    color: white;
+    font-size: 21px;
+    font-family: kraskarioregular;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 800px){
+    .stay_a_partner {
+        right: -82px;
+        top: -26px;
+    }    
+}
+

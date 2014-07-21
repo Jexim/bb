@@ -1,0 +1,205 @@
+.buy_tickets_wrapper {
+    background: url('/images/1200/buy_tickets_wrapper.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    text-align: center;
+    min-height: 437px;
+}
+/*@media only screen and (max-width: 1200px){
+    .buy_tickets_wrapper {
+        background: url('/images/1200/buy_tickets_wrapper.jpg');
+        background-position:  top -130px center;
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (max-width: 700px){
+    .buy_tickets_wrapper {
+        background: url('/images/700/buy_tickets_wrapper.jpg');
+        background-position: top -130px center;
+        background-repeat: no-repeat;
+    }
+}*/
+
+.buy_tickets_content {
+    
+}
+.buy_tickets_content > a h1 {
+    text-align: center;
+    color: #c1272d;
+    font-weight: normal;
+    font-family: kraskarioregular;
+    font-size: 62px;
+    padding-top: 36px;
+}
+.block_for_buy_frame {
+    height: 627px;
+    width: 907px;
+    border: 1px solid #e5e5e5;
+    margin: 20px auto;
+}
+@media only screen and (max-width: 1000px){
+    .block_for_buy_frame {
+        width: 650px;
+    }
+}
+.one_text_block_tickets {
+    max-width: 1200px;
+    padding: 17px 200px 0px;
+    margin: 0px auto;
+    text-align: center;
+}
+@media only screen and (max-width: 1000px){
+    .one_text_block_tickets {
+        padding: 17px 100px 0px;
+    }    
+}
+.one_text_block_tickets > h2 {
+    color: #c1272d;
+    font-size: 62px;
+    font-family: kraskarioregular;
+    font-weight: normal;
+    text-align: center;
+}
+.one_text_block_tickets > h3 {
+    color: black;
+    font-size: 30px;
+    font-family: kraskarioregular;
+    font-weight: normal;
+    text-align: center;
+    padding: 4px 115px;
+}
+.one_text_block_tickets > p {
+    color: black;
+    font-size: 15px;
+    font-family: Trebuchet MS;
+    font-weight: normal;
+    text-align: left;
+    line-height: 19px;
+    padding:  8px 48px;
+}
+.working_time {
+    font-family: helvetR;
+    font-size: 12px;
+    line-height: 17px;
+    display: inline-block;
+    padding-top: 13px;
+}
+.theater_point {
+    width: 35%;
+    margin: 23px auto;
+}
+.theater_point_img {
+    width: 65px;
+    height: 65px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+}
+.theater_point > h2 {
+    color: #c1272d;
+    font-family: kraskarioregular;
+    font-size: 26px;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 80px;
+}
+.theater_point > h3 {
+    color: black;
+    font-family: helvetR;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 80px;
+}
+.buy_tickets_partners {
+    padding-bottom: 20px;
+}
+.buy_tickets_partners_row {
+    height: 190px;
+    margin: 20px 0px;
+    background: url('/images/buy_tickets_partners_row.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.buy_tickets_one_partner {
+    background: url('/images/buy_tickets_one_partner.png');
+    width: 177px;
+    height: 190px;
+    display: inline-block;
+    margin: 0px 25px;
+    vertical-align: top;
+}
+.buy_tickets_partners > h2 {
+    font-weight: normal;
+    font-family: kraskarioregular;
+    font-size: 29px;
+    text-align: center;
+    padding-top: 30px;
+}
+.buy_tickets_partners > h3 {
+    font-weight: normal;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 14px;
+    width: 75%;
+    margin: 0px auto;
+    padding-bottom: 15px;
+}
+.buy_tickets_partners > p {
+    font-weight: normal;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    text-align: left;
+    width: 75%;
+    margin: 0px auto;
+    
+}
+.buy_one_partner_logo {
+    margin-top: 20px;
+    height: 79px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.buy_one_partner_logo > img {
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.buy_one_partner_text {
+    text-align: center;
+    height: 90px;
+    overflow: hidden;
+}
+.buy_one_partner_text > a {
+    font-family: helvetR;
+    font-size: 15px;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+}
+.buy_one_partner_text > a:hover {
+    border-bottom: 1px solid #808080;
+}
+.buy_one_partner_text > p {
+    font-family: helvetR;
+    font-size: 12px;
+    padding: 8px 19px;
+}
+
+.one_text_block_tickets a{
+    color: #000;
+}
+
+.one_text_block_tickets a:hover{
+    cursor: pointer;
+}
+
+.buy_tickets_l{
+    display: none;
+}

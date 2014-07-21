@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Сюжет", 
+		"/about/story/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"История успеха", 
+		"/about/history/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Труппа", 
+		"/about/troupe/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Творческая группа", 
+		"/about/creative/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Оркестр", 
+		"/about/orchestra/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Медиа", 
+		"/about/media/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,112 @@
+.promo_page_wrapper {
+    background: #00001c url('/images/1200/promo_page_wrapper.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+    color: white;
+}
+/*@media only screen and (max-width: 1200px){
+    .promo_page_wrapper {
+        background: #04041e url('/images/1200/promo_page_wrapper.jpg');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        min-height: 1000px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .promo_page_wrapper {
+        background: #04041e url('/images/700/promo_page_wrapper.jpg');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        min-height: 1000px;
+    }
+}*/
+.promo_page_content {
+    
+}
+.promo_one_post {
+    padding-top: 2px;
+    padding-bottom: 50px;
+}
+.promo_one_header {
+    height: 212px;
+    text-align: center;
+}
+.promo_one_header > h2 {
+    font-size: 57px;
+    font-weight: normal;
+    font-family: kraskarioregular;
+    margin-top: -66px;
+}
+.promo_one_text {
+    width: 60%;
+    margin: 0px auto;
+    background: white;
+    color: black;
+    border-radius: 4px;
+    padding-bottom: 5px;
+}
+@media only screen and (max-width: 1000px){
+    .promo_one_text {
+        width: 85%;
+    }
+}
+.promo_one_text > a h1 {
+    font-size: 44px;
+    font-weight: normal;
+    font-family: kraskarioregular;
+    text-align: center;
+    padding-top: 24px;
+    line-height: 30px;
+    width: 75%;
+    margin: 0px auto;
+    color: black;
+}
+.promo_one_text > h2 {
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 20px;
+    width: 75%;
+    margin: 0px auto;
+}
+.promo_one_text > p {
+    font-size: 13px;
+    padding: 18px 50px 0px;
+}
+.promo_one_text > ul {
+    font-size: 13px;
+    padding: 0px 10%;
+    list-style-image: url('/images/list_marker_promo.png');
+}
+.promo_one_bottom {
+    width: 60%;
+    margin: 0px auto;
+    background: white;
+    color: black;
+    border-radius: 4px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 16px;
+    border-top: 1px solid #efeff2;
+    position: relative;
+}
+@media only screen and (max-width: 1000px){
+    .promo_one_bottom {
+        width: 85%;
+    }
+}
+.promo_one_bottom > p {
+    font-size: 13px;
+    padding: 0px 19%;
+}
+.promo_bottom_left {
+    position: absolute;
+    top: -10px;
+    left: 0px;
+}
+.promo_bottom_right {
+    position: absolute;
+    top: -10px;
+    right: 0px;
+}

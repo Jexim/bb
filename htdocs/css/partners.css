@@ -1,0 +1,87 @@
+.partners_wrapper {
+    background: #00001c url('/images/1200/partners_wrapper.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+    text-align: center;
+    min-height: 798px;
+}
+/*@media only screen and (max-width: 1200px){
+    .partners_wrapper {
+        background: #10081e url('/images/1200/partners_wrapper.jpg');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (max-width: 700px){
+    .partners_wrapper {
+        background: #10081e url('/images/700/partners_wrapper.jpg');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+}*/
+
+.partners_content {
+    padding-bottom: 80px;
+}
+.partners_content > h1 {
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: kraskarioregular;
+    padding-top: 27px;
+}
+.partners_one_row {
+    height: 190px;
+    text-align: center;
+    background: url('/images/partners_one_row_first.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-top: 20px;
+}
+.partners_one_point {
+    background: url('/images/partners_one_point.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 178px;
+    height: 190px;
+    display: inline-block;
+    margin: 0px 23px;
+    vertical-align: middle;
+}
+.partners_one_point_logo {
+    margin-top: 20px;
+    height: 84px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.partners_one_point_logo > img {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.partners_one_point_text {
+    height: 86px;
+    overflow: hidden;
+}
+.partners_one_point_text > a {
+    font-family: helvetR;
+    font-size: 15px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 1px;
+}
+.partners_one_point_text > a:hover {
+    border-bottom: 1px solid #908b96;
+    
+}
+.partners_one_point_text > p {
+    font-family: helvetR;
+    font-size: 12px;
+    color: white;
+    padding-top: 7px;
+}

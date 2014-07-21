@@ -1,0 +1,186 @@
+.opinion_wrapper {
+    background: #00001c url('/images/1200/opinion_wrapper.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+    text-align: center;
+    min-height: 1326px;
+}
+/*@media only screen and (max-width: 1200px){
+    .opinion_wrapper {
+        background: #00001d url('/images/1200/opinion_wrapper.jpg');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (max-width: 700px){
+    .opinion_wrapper {
+        background: #00001d url('/images/700/opinion_wrapper.jpg');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+}*/
+
+.opinion_content {
+    padding-top: 100px;
+}
+
+.opinion_one_block {
+    min-height: 150px;
+    margin-top: 15px;
+}
+
+.opinion_one_block_in_left {
+    float: left;
+    width: 50%;
+    min-height: 150px;
+    position: relative;
+}
+.opinion_left {
+    padding-right: 91px;
+    position: relative;
+    height: 100%;
+    text-align: right;
+    width: 70%;
+    float: right;
+}
+.opinion_left h1 {
+    font-size: 26px;
+    color: white;
+    font-family: kraskarioregular;
+    font-weight: normal;
+    padding-right: 15px;
+}
+.opinion_left p {
+    font-size: 13px;
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: normal;
+    padding-right: 15px;
+}
+
+
+
+.opinion_one_block_in_right {
+    float: right;
+    width: 50%;
+    min-height: 150px;
+    position: relative;
+}
+.opinion_right {
+    padding-left: 91px;
+    height: 100%;
+    text-align: left;
+    width: 70%;
+}
+.opinion_right h1 {
+    font-size: 26px;
+    color: white;
+    font-family: kraskarioregular;
+    font-weight: normal;
+    padding-left: 15px;
+}
+.opinion_right p {
+    font-size: 13px;
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: normal;
+    padding-left: 15px;
+}
+
+
+
+
+.opinion_center {
+    width: 182px;
+    position: absolute;
+    top: 0px;
+    left: -91px;
+    height: 100%;
+}
+.opinion_center_in {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.right_text_opinion_border {
+    display: inline-block;
+    width: 179px;
+    height: 143px;
+    background: url('/images/right_text_opinion_border.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+}
+.right_text_opinion_border > span {
+    width: 89px;
+    height: 89px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    margin-top: 21px;
+    margin-left: 74px;
+}
+.left_text_opinion_border {
+    display: inline-block;
+    width: 179px;
+    height: 143px;
+    background: url('/images/left_text_opinion_border.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+}
+.left_text_opinion_border > span {
+    width: 89px;
+    height: 89px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    margin-top: 24px;
+    margin-left: 29px;
+}
+
+
+
+
+ /*стили для страницы мнений СМИ
+ -----------------------------------------------------------------------------*/
+ 
+ .right_text_opinion .resouder_musical {
+     color: #ffbfaf;
+     font-family: helvetR;
+     font-size: 13px;
+     display: inline-block;
+     margin-left: 15px;
+     border-bottom: 2px solid #563d46;
+     cursor: pointer;
+     margin-top: 10px;
+ }
+ .right_text_opinion .resouder_date {
+     color: white;
+     font-family: helvetR;
+     font-size: 13px;
+     display: inline-block;
+     margin-left: 15px;
+     font-weight: normal;
+ }
+ 
+ .left_text_opinion .resouder_musical {
+     color: #ffbfaf;
+     font-family: helvetR;
+     font-size: 13px;
+     display: inline-block;
+     margin-right: 15px;
+     border-bottom: 2px solid #563d46;
+     cursor: pointer;
+     margin-top: 10px;
+ }
+ .left_text_opinion .resouder_date {
+     color: white;
+     font-family: helvetR;
+     font-size: 13px;
+     display: inline-block;
+     margin-right: 15px;
+     font-weight: normal;
+ }
+ 

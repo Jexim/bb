@@ -1,0 +1,46 @@
+.header_wrapper {
+    background: #01011d;
+    min-height: 170px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+.header_wrapper_logo > img {
+    margin-top: 62px;
+}
+.header_wrapper_nav {
+    padding: 2px;
+}
+.header_wrapper_nav > a {
+    font-size: 22px;
+    color: white;
+    font-family: kraskarioregular;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0px 2%;
+}
+.header_wrapper_nav > .active {
+    color: #c1272d;
+}
+.header_wrapper_nav > a:hover {
+    color: #c1272d;
+}
+.tickets_block {
+    width: 137px;
+    height: 66px;
+    padding-top: 10px;
+    background: url('/images/menu_hover_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: -66px;
+}
+.tickets_block > a {
+    font-size: 22px;
+    color: white;
+    font-family: kraskarioregular;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}

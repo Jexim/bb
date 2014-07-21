@@ -1,0 +1,404 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+    font-family: Trebuchet MS;
+}
+.wrapper {
+	min-width: 700px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.clear {
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*социальная навигация
+------------------------------------------------------------------------------*/
+
+.social_and_contakts {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.social_and_contakts_in {
+    max-width: 1600px;
+    margin: 0px auto;
+    position: relative;
+}
+.contakts_info {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    vertical-align: middle;
+    cursor: pointer;
+    display: block;
+}
+.contakts_info > img {
+    display:inline-block;
+    vertical-align:middle;
+    margin-right: 10px;
+}
+.contakts_info > span {
+    color: #9791bf;
+    display:inline-block;
+    vertical-align:middle;
+    height:100%;
+    font-family: helvetR;
+    font-size: 12px;
+}
+.contakts_info_active > span {
+    color: white !important;
+}
+.kontakts_info_block {
+    height: 338px;
+    background: #00001c url('/images/kontakts_info_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    position: relative;
+}
+.close_kontakts_info {
+    width: 15px;
+    height: 15px;
+    background: url('/images/ico_sprite.png');
+    background-repeat: no-repeat;
+    background-position: 0px -120px;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    cursor: pointer;
+    z-index: 999;
+}
+.phones_and_address {
+    padding-top: 26px;
+}
+.left_address {
+    width: 50%;
+    float: left;
+    position: relative;
+    text-align: right;
+}
+.left_address_in {
+    padding-right: 33px;
+}
+.left_address_in span {
+    color: white;
+    margin: 0px 20px;
+    display: inline-block;
+    font-family: helvetL;
+    font-size: 14px;
+    margin-top: 26px;
+    position: relative;
+}
+.right_address {
+    width: 50%;
+    float: right;
+    position: relative;
+    text-align: left;
+}
+.right_address_in {
+    padding-left: 33px;
+    
+}
+.right_address_in span {
+    color: white;
+    margin: 0px 20px;
+    display: inline-block;
+    font-family: helvetL;
+    font-size: 14px;
+    margin-top: 26px;
+    position: relative;
+}
+.right_address_in span > h2 {
+    color: white;
+    display: inline-block;
+    font-family: kraskarioregular;
+    font-size: 26px;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    font-weight: normal;
+}
+.phones_and_address_img {
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    top: 0px;
+    left: -33px;
+    border-radius: 50%;
+}
+.central_phone {
+    font-family: helvetL;
+    font-weight: normal;
+    color: white;
+    font-size: 14px;
+    padding-top: 25px;
+}
+.central_phone > span {
+    font-size: 17px;
+}
+.for_type_partner {
+    width: 70%;
+    margin: 0px auto;
+}
+.for_type_partner > div {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    text-align: center;
+}
+.for_type_partner > div:first-child {
+    text-align: right;
+}
+.for_type_partner > div:last-child {
+    text-align: left;
+}
+.for_type_partner > div h3 {
+    font-family: helvetR;
+    font-size: 13px;
+    color: #c1272d;
+    font-weight: normal;
+    padding: 10px 0px;
+}
+.for_type_partner > div p {
+    font-family: helvetR;
+    font-size: 13px;
+    color: white;
+    font-weight: normal;
+    padding: 10px 0px;
+    line-height: 18px;
+}
+
+
+
+
+
+
+.share_and_describe {
+    position: absolute;
+    color: #9791bf;
+    right: 17px;
+    top: 15px;
+}
+.share {
+    cursor: pointer;
+    margin-right: 25px;
+}
+.share > .ico {
+    display: inline-block;
+    background: url('/images/ico_sprite.png');
+    background-repeat: no-repeat;
+    background-position: top 0px left 0px;
+    width: 14px;
+    height: 14px;
+    vertical-align: sub;
+    margin-right: 5px;
+}
+.share:hover {
+    color: white;
+}
+.share:hover > .ico {
+    background-position: top 0px left -14px;
+}
+.share > span {
+    font-family: helvetR;
+    font-size: 13px;
+}
+
+
+
+
+
+.describe {
+    cursor: pointer;
+    cursor: pointer;
+    font-family: helvetR;
+    font-size: 13px;
+}
+@media only screen and (max-width: 1600px){
+    .contakts_info {
+        top: 11px;
+        left: 11px;
+    }
+    .share_and_describe {
+        right: 17px;
+        top: 15px;
+    }
+}
+.describe_active {
+    color: white;
+}
+.describe_block {
+    background: url('/images/describe_block.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 99px;
+    position: relative;
+    display: none;
+}
+.form_describe {
+    margin-top: 31px;
+    width: 265px;
+    height: 37px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: relative;
+}
+.form_describe input[type="text"] {
+    height: 37px;
+    width: 130px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: helvetR;
+    font-size: 13px;
+    padding: 0px 10px;
+    text-align: left;
+    border-right: 1px solid white;
+    color: white;
+}
+.form_describe input[type="button"] {
+    height: 37px;
+    width: 103px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: helvetR;
+    font-size: 16px;
+    text-align: center;
+    /* border-right: 1px solid white; */
+    color: white;
+    cursor: pointer;
+}
+.form_describe > p:first-child {
+    position: absolute;
+    font-family: helvetL;
+    color: white;
+    text-align: right;
+    top: -2px;
+    left: -100%;
+}
+.form_describe > p:last-child {
+    font-family: helvetL;
+    color: white;
+    text-align: left;
+    top: -2px;
+    right: -115%;
+}
+.form_describe > p {
+    position: absolute;
+}
+.form_describe > label {
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    width: 17px;
+    height: 16px;
+}
+.form_describe input[type="checkbox"] {
+    display: none;
+}
+.form_describe > label span {
+    display: block;
+    width: 17px;
+    height: 16px;
+    background: url('/images/ico_sprite.png');
+    background-position: 0px -143px;
+}
+.form_describe > label input:checked + span {
+    display: block;
+    width: 17px;
+    height: 16px;
+    background: url('/images/ico_sprite.png');
+    background-position: 0px -168px;
+}
+
+
+
+
+
+.social_and_contakts_inside {
+    top: 46px;
+}
+@media only screen and (max-width: 1000px){
+    .social_and_contakts_inside {
+        top: 0px;
+    }    
+}
+
+
+.social_links_block {
+    width: 130px;
+    height: 22px;
+    position: absolute;
+    top: 45px;
+    right: 115px;
+    display: none;
+}
+.social_links_block > a {
+    display: block;
+    float: left;
+    background: url('/images/ico_sprite.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin: 0px 4px;
+}
+.vk {
+    width: 37px;
+    height: 26px;
+    background-position: 0px -93px !important;
+}
+.od {
+    width: 15px;
+    height: 26px;
+    background-position: 0px -42px !important;
+}
+.tw {
+    width: 26px;
+    height: 26px;
+    background-position: 0px -16px !important;
+}
+.fb {
+    width: 13px;
+    height: 26px;
+    background-position: 0px -68px !important;
+}
+.share_active {
+    color: white;
+}
+.share_active > .ico {
+    background-position: top 0px left -14px;
+}
+
+
+
+
+
+
+
+.content_bottom_logo {
+    text-align: center;
+    padding: 50px 0px;
+}

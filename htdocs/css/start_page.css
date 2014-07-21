@@ -1,0 +1,150 @@
+.start_page_wrapper {
+    background: #00001c url('/images/1200/start_page_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+    text-align: center;
+    min-height: 798px;
+}
+.start_page_wrapper_in {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 798px;
+}
+/*@media only screen and (max-width: 1200px){
+    .start_page_wrapper {
+        background: url('/images/1200/start_page_bg.jpg');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (max-width: 700px){
+    .start_page_wrapper {
+        background: url('/images/700/start_page_bg.jpg');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+}*/
+
+
+
+
+
+
+
+
+
+/*менюшка
+------------------------------------------------------------------------------*/
+
+.menu_home {
+    position: absolute;
+    width: 100%;
+    top: 315px;
+    
+}
+.menu_home_in {
+    max-width: 1200px;
+    padding: 0px 75px;
+    margin: 0px auto;
+}
+.menu_home_in {
+    
+}
+.left_part_menu {
+    float: left;
+    font-family: kraskarioregular;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.right_part_menu {
+    float: right;
+    font-family: kraskarioregular;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.menu_home_in a {
+    display: inline-block;
+    margin: 0px 10px;
+    cursor: pointer;
+    position: relative;
+}
+.menu_home_in a > span {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.tickets_link_home > img {
+    left: -24px;
+    position: absolute;
+    top: -12px;
+    z-index: 0;
+}
+.menu_home_in a:hover {
+    color: #f9c5c7;
+}
+.tickets_link_home:hover {
+    color: white !important;
+}
+@media only screen and (max-width: 1200px){
+    .menu_home_in {
+        max-width: 550px;
+    }
+    .menu_home {
+        top: 76px;
+    }   
+}
+.tickets_link_home span {
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo_home > img {
+    margin-top: 26px;
+}
+@media only screen and (max-width: 1200px){
+    .logo_home > img {
+        width: 360px;
+        margin-top: 100px;
+    }    
+}
+
+
+
+
+.home_sub_title {
+    font-family: vera_crouzregular;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+.home_bottom_effect {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.header_wrapper_nav > a:first-child{
+    color: #c1272d;
+}
+
+.musical_nav_menu > a:first-child{
+    color: #c1272d;
+}
+
+

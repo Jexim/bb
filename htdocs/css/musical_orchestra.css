@@ -1,0 +1,58 @@
+.musical_orchestra_wrapper {
+    background: #00001c url('/images/1200/musical_orchestra_wrapper.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    min-height: 1317px;
+    color: white;
+}
+/*@media only screen and (max-width: 1200px){
+    .musical_orchestra_wrapper {
+        background: #04041e url('/images/1200/musical_orchestra_wrapper.jpg');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        min-height: 1317px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .musical_orchestra_wrapper {
+        background: #04041e url('/images/700/musical_orchestra_wrapper.jpg');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        min-height: 1317px;
+    }
+}*/
+.musical_orchestra_content {
+    padding: 50px 0px 0px;
+}
+.musical_orchestra_one {
+    padding: 12px;
+}
+.musical_orchestra_one_left {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.musical_orchestra_one_left > p {
+    padding-right: 25px;
+    color: white;
+    font-family: kraskarioregular;
+    font-size: 26px;
+    width: 50%;
+    float: right;
+}
+.musical_orchestra_one_right {
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+.musical_orchestra_one_right > p {
+    font-size: 15px;
+    font-family: helvetR;
+    padding-left: 25px;
+    background: url('/images/orchestra_marker.jpg');
+    background-repeat: no-repeat;
+    background-position: 0px 11px;
+    color: #ffbfaf;
+    width: 50%;
+    padding-top: 5px;
+}

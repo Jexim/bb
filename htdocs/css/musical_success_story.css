@@ -1,0 +1,39 @@
+.musical_success_story_wrapper {
+    background: #00001c url('/images/1200/musical_success_story.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    min-height: 1006px;
+    color: white;
+}
+/*@media only screen and (max-width: 1200px){
+    .musical_success_story_wrapper {
+        background: #04041e url('/images/1200/musical_success_story.jpg');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        min-height: 1176px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .musical_success_story_wrapper {
+        background: #04041e url('/images/700/musical_success_story.jpg');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        min-height: 1176px;
+    }
+}*/
+
+.musical_success_story_content {
+    max-width: 1200px;
+    padding: 20px 200px 0px;
+    margin: 0px auto;
+}
+@media only screen and (max-width: 1000px){
+    .musical_success_story_content {
+        padding: 20px 100px 0px;
+    }
+}
+.musical_success_story_content > p {
+    font-size: 15px;
+    color: white;
+    padding: 12px 0px;
+}
