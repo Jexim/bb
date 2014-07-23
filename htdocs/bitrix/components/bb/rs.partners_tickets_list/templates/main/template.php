@@ -5,7 +5,7 @@
     <h2>Групповые заказы</h2>
 </div>
 <div class="one_text_block_tickets musical_nav_menu">
-    
+
     <? foreach ($arResult['SECTION'] as $key => $arSection): ?>
         <a class="buy_tickets_button buy_tickets_button_<?= $arSection['ID'] ?>" group_tickets="<?= $arSection['ID'] ?>"><?= $arSection['NAME'] ?></a>
     <? endforeach; ?>
@@ -45,16 +45,18 @@
                         <? endforeach; ?>
                     </div>
                 <? endif; ?>
-                <h3>
-                    За дополнительной информацией и по всем интересующим вопросам, пожалуйста, обращайтесь
-                    к менеджеру по работе с туристическими агентствами Татьяне Собко:
-                </h3>
-                <p>
-                    тел. +7 (495) 780 35 54 доб. 2045
-                </p>
-                <p>
-                    факс: + 7 (495) 411 71 37
-                </p>
+                <div class="one_text_block_tickets">
+                    <p>
+                        За дополнительной информацией и по всем интересующим вопросам, пожалуйста, обращайтесь
+                        к менеджеру по работе с туристическими агентствами Татьяне Собко:
+                    </p>
+                    <p>
+                        тел. +7 (495) 780 35 54 доб. 2045
+                    </p>
+                    <p>
+                        факс: + 7 (495) 411 71 37
+                    </p>
+                </div>
             </div>         
         </div>
     <? endforeach; ?>

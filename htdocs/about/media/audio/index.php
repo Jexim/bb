@@ -2,10 +2,9 @@
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("О МЮЗИКЛЕ");
 ?>
-<script src="/js/musical_media.js"></script>
 <link href="/css/musical_media.css" rel="stylesheet">
+<script src="/js/musical_media.js"></script>
 <script src="/js/jquery.jcarousel.min.js"></script>
-
 <div class="musical_media_wrapper"><!--Отдельный компонент-->
 
     <div class="musical_media_wrapper_in">
@@ -35,7 +34,7 @@ $APPLICATION->SetTitle("О МЮЗИКЛЕ");
 
             <div class="media_nav_block">
 
-                <a class="media_curr_page">
+                <a href="/about/media/">
                     <span>Фото</span>
                 </a>
 
@@ -43,17 +42,26 @@ $APPLICATION->SetTitle("О МЮЗИКЛЕ");
                     <span>Видео</span>
                 </a>
 
-                <a href="/about/media/audio/">
+                <a class="media_curr_page">
                     <span>Аудио</span>
                 </a>
 
                 <div class="clear"></div>
             </div>
 
-            <? $APPLICATION->IncludeComponent("bb:rs.slider_list", "main", Array()); ?>
+            <div class="audio_files_block">
+
+                <? $APPLICATION->IncludeComponent("bb:rs.audio_list", "main", Array()); ?>
+
+            </div>
 
         </div>
 
+    </div>
+
+
+    <div class="content_bottom_logo">
+        <img src="/images/content_bottom_logo.png">
     </div>
 
 </div>

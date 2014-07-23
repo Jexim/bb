@@ -147,4 +147,18 @@
     color: #c1272d;
 }
 
+.left_part_menu  a:first-child span{
+    color: #c1272d;
+}
 
+.header_wrapper_nav > a:first-child:hover{
+    cursor: default;
+}
+
+.musical_nav_menu > a:first-child:hover{
+    cursor: text;
+}
+
+.left_part_menu  a:first-child:hover{
+    cursor: default;
+}

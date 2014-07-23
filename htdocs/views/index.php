@@ -7,19 +7,21 @@ $APPLICATION->SetTitle("МНЕНИЯ");
 <script src="/js/opinion.js"></script>
 
 <div class="opinion_wrapper"><!--Отдельный компонент-->
-    <div class="musical_nav_wrapper"><!--Отдельный компонент-->
-        <a href=""><img src="/images/opinion_nav_wrapper_logo.png"></a>
-        <div class="musical_nav_menu">
-            <a href="/views/media/" <? if($_SERVER['REQUEST_URI'] == '/views/media/'): ?>class="musical_nav_menu_active"<? endif; ?>>Мнение СМИ</a>
-            <br>
-            <a href="/views/" <? if($_SERVER['REQUEST_URI'] == '/views/'): ?>class="musical_nav_menu_active"<? endif; ?>>Отзывы гостей</a>
+    <div class="opinion_wrapper_in">
+        <div class="musical_nav_wrapper"><!--Отдельный компонент-->
+            <a href=""><img src="/images/opinion_nav_wrapper_logo.png"></a>
+            <div class="musical_nav_menu">
+                <a href="/views/media/" <? if ($_SERVER['REQUEST_URI'] == '/views/media/'): ?>class="musical_nav_menu_active"<? endif; ?>>Мнение СМИ</a>
+                <br>
+                <a <? if ($_SERVER['REQUEST_URI'] == '/views/'): ?>class="musical_nav_menu_active"<? endif; ?>>Отзывы гостей</a>
+            </div>
         </div>
-    </div>
-    <div class="opinion_content">
-        <? $APPLICATION->IncludeComponent("bb:rs.views_list", "main", Array()); ?>
-    </div>
-    <div class="content_bottom_logo">
-        <img src="/images/content_bottom_logo.png">
+        <div class="opinion_content">
+            <? $APPLICATION->IncludeComponent("bb:rs.views_list", "main", Array()); ?>
+        </div>
+        <div class="content_bottom_logo">
+            <img src="/images/content_bottom_logo.png">
+        </div>
     </div>
 </div>    
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

@@ -25,6 +25,12 @@ if (CModule::IncludeModule("iblock")) {
             'RESULT' => FALSE,
         ));
     }
+
+    SendPost("https://web.inxmail.com/stage_ru/subscription/servlet", array(
+        "INXMAIL_SUBSCRIPTION" => "_subscriptions_BAB_website",
+        "INXMAIL_CHARSET" => "utf-8",
+        "email" => $_POST['mail'],
+    ));
 }
 
 $this->IncludeComponentTemplate();

@@ -7,6 +7,7 @@ $APPLICATION->SetTitle("О МЮЗИКЛЕ");
 <script src="/js/musical_story.js"></script>
 
 <div class="musical_story_wrapper"><!--Отдельный компонент-->
+    <div class="musical_success_story_wrapper_in">
     <div class="musical_nav_wrapper"><!--Отдельный компонент-->
 
         <a href=""><img src="/images/musical_nav_wrapper_logo.png"></a>
@@ -43,7 +44,7 @@ $APPLICATION->SetTitle("О МЮЗИКЛЕ");
     <div class="content_bottom_logo">
         <img src="/images/content_bottom_logo.png">
     </div>
-
+    </div>
 
 </div>
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

@@ -6,6 +6,12 @@
     text-align: center;
     min-height: 798px;
 }
+.news_wrapper_in {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 798px;
+}
 /*@media only screen and (max-width: 1200px){
     .news_wrapper {
         background: url('/images/1200/news_wrapper.jpg');
@@ -31,6 +37,7 @@
     width: 60%;
     margin: 0px auto;
     position: relative;
+    overflow: hidden;
 }
 @media only screen and (max-width: 1000px){
     .news_content_one_top {
@@ -58,7 +65,7 @@
     font-family: kraskarioregular;
     font-weight: normal;
     position: absolute;
-    top: 185px;
+    top: 175px;
     left: 0px;
     text-align: center;
     width: 100%;

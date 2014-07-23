@@ -6,6 +6,8 @@ $APPLICATION->SetTitle("НОВОСТИ");
 <link href="/css/news.css" rel="stylesheet">
 
 <div class="news_wrapper"><!--Отдельный компонент-->
-    <? $APPLICATION->IncludeComponent("bb:rs.news_list", "main", Array('YEAR' => 2015)); ?>                    
+    <div class="news_wrapper_in">
+        <? $APPLICATION->IncludeComponent("bb:rs.news_list", "main", Array('YEAR' => 2015)); ?>   
+    </div>
 </div>
-    <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

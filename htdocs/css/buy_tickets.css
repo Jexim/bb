@@ -1,10 +1,16 @@
 .buy_tickets_wrapper {
     background: url('/images/1200/buy_tickets_wrapper.jpg');
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top -130px center;
     position: relative;
     text-align: center;
     min-height: 437px;
+}
+.buy_tickets_wrapper_in {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 437px;
+    position: relative;
 }
 /*@media only screen and (max-width: 1200px){
     .buy_tickets_wrapper {
